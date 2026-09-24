@@ -146,4 +146,36 @@ else :
     input  a =90 b=56 c =23   -----> output  a is big
     
 """
+# logic : 
+"""
+a  -----> a>b  a>c 
+b  -----> b>a  b>c
+c  -----> c>b  c>a
 
+"""
+
+
+a=int(input("enter the a value :"))
+b=int(input("enter the b value :"))
+c=int(input("enter the c value :"))
+
+if a>b  and a>c :
+    print("a is big")
+elif b>a  and b>c :
+    print("b is big")
+elif c>a  and c>b :
+    print("c is big")
+else :
+    print("all are small")
+    
+"""
+ask user to enter the three side of  the triangle and check whether  triangle is  equilateral , isosceles or scalene.
+
+Equilateral Triangle: Has three equal sides and three equal angles, always measuring 60°.
+
+Isosceles Triangle: Has two equal sides and two equal angles.
+
+Scalene Triangle: Has no equal sides and no equal angles  
+
+
+"""
