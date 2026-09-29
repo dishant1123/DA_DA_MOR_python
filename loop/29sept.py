@@ -170,5 +170,48 @@ each digit sum : 1+2+3 =6
 each digit multiply : 1*2*3 =6
 sum == multiply : 6 == 6
 output : twin number
+
+# task:2 
+
+Write a python program to print all numbers between 1 and 100 (including 1 and 100) that are both, Disarium and 
+Harshad numbers.
+A number is said to be a Disarium number when the sum of its digit raised to the power of their respective positions 
+becomes equal to the number itself.
+For example, 175 is a Disarium number as follows:
+11+ 72 + 53 = 1+ 49 + 125 = 175
+A harshad number is a number that is divisible by the sum of its digits. E.g., the number 18 is a harshad number, because 
+the sum of the digits 1 and 8 is 9 (1 + 8 = 9), and 18 is divisible by 9. 
+
+# task :3 
+Ask the user to enter 10 test scores. Write a program to do the following:
+ a)If user enters score greater than 100, then give warning to user that entered score is more than 100 and take that 
+ input again from user.  
+ b)Print out the highest and lowest scores.
+  c)Print out the average of the scores. 
+  d)Print out the second largest score.
+ e)Drop the two lowest scores and print out the average of the rest of them.
+Note: Use of Python Data structures like string, list, tuple etc. and their inbuilt function is not allowed.
+For Ex.
+If Input is like following:
+Enter Test Score: 80
+Enter Test Score: 65
+Enter Test Score: 98
+Enter Test Score: 70
+Enter Test Score: 93
+Enter Test Score: 130
+Entered score is more than hundred, so enter again
+Enter Test Score: 95
+Enter Test Score: 50
+Enter Test Score: 40
+Enter Test Score: 75
+Enter Test Score: 72
+Output should be:
+Highest Score is: 98
+Lowest Score is: 40
+Average Test Score is: 73.8
+Second Largest Score is: 95
+Average after dropping the two lowest scores: 81.0
+
+
 """
 
