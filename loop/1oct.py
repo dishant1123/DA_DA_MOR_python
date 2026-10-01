@@ -19,7 +19,18 @@ pattern  :
                                                         * * *
                                                          * * 
                                                           * 
- 
+
+
+12 . 
+         *
+       *   *
+      *     *
+     *       *  
+    *         *
+     *       *
+      *     *
+       *   *
+         * 
 """
 
 # task: 1 ask user to  enter the two range  that start range and ending range print  prime  number  between  two  range. 
@@ -101,7 +112,7 @@ for i in range(1,6):
 
 # 11 : 
 
-for i in range(1,6):
+"""for i in range(1,6):
     for k in range(5,i,-1) : 
         print(" ",end="")
     for j in range(1,i+1):
@@ -113,3 +124,31 @@ for i in range(1,6):  # 2
     for j in range(6,i,-1):  # 6 , 2 ,-1
         print("*",end=" ")   #  * * * * * 
     print()                  #   * * * * 
+"""
+
+# 12 :      13 : 
+"""
+* * * * *   * 
+*       *   * * 
+*       *   *   * 
+*       *   *    *
+* * * * *   * * * * 
+
+"""
+"""
+for i in range(1,6):
+    for j in range(1,6):
+        if (i==1 or i==5 or j==1 or j==5):
+            print("*",end=" ")
+        else :
+            print(" ",end=" ")
+    print()
+"""
+
+for i in range(1,6):  # 3 
+    for j in range(1,i+1):  # 3,4  ---> j=1 j =2 
+        if (i==5 or j==1 or i==j):
+            print("*",end=" ")  # * 
+        else :                  # * * 
+            print(" ",end=" ")  # *  *  
+    print()
